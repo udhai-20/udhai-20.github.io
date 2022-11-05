@@ -44,10 +44,10 @@
 					<a class="dropdown-item" style="color: rgb(255,255,255);" href="#about-section">About</a>
 					<a class="dropdown-item" style="color: rgb(255,255,255);" href="#skills-section">Skills</a>
 					<a class="dropdown-item" style="color: rgb(255,255,255);" href="#projects-section">Projects</a>
-					<a class="dropdown-item" style="color: rgb(255,255,255);" href="#blog-section">My Blog</a>
+					<!-- <a class="dropdown-item" style="color: rgb(255,255,255);" href="#blog-section">My Blog</a> -->
 					<a class="dropdown-item" style="color: rgb(255,255,255);" href="#contact-section">Contact</a>
-					<a class="dropdown-item" style="color: rgb(255,255,255);" download="Udhaya Prakash Resume"
-						href="./Resume/Udhaya-Prakash-Resume.pdf">Resume</a>
+					<a id="downloadResume" class="dropdown-item" style="color: rgb(255,255,255);"
+						download="Udhaya Prakash Resume" href="./Resume/Udhaya-Prakash-Resume.pdf">Resume</a>
 
 				</div>
 			</div>
@@ -64,7 +64,7 @@
 					<li class="nav-item"><a href="#projects-section" class="nav-link"><span>Projects</span></a></li>
 					<!-- <li class="nav-item"><a href="#blog-section" class="nav-link"><span>My Blog</span></a></li> -->
 					<li class="nav-item"><a href="./Resume/Udhaya-Prakash-Resume.pdf" class="nav-link"
-							download="Udhaya Prakash Resume"><span>Resume</span></a></li>
+							download="Udhaya Prakash Resume" id="downloadResume"><span>Resume</span></a></li>
 					<li class="nav-item"><a href="#contact-section" class="nav-link"><span>Contact</span></a></li>
 				</ul>
 			</div>
@@ -114,11 +114,15 @@
 					<div class="counter-wrap ftco-animate d-flex mt-md-3">
 						<div class="text">
 							<p class="mb-4">
-								<span class="number" data-number="3">3</span>
+								<span class="number" data-number="4">4</span>
 								<span>Project complete</span>
 							</p>
-							<p><a href="./Resume/Udhaya-Prakash-Resume.pdf" download="Udhaya Prakash Resume"
-									class="btn btn-primary py-3 px-3">Resume</a></p>
+							<p><a id="downloadResume" href="./Resume/Udhaya-Prakash-Resume.pdf"
+									class="btn btn-primary py-3 px-3" download="">Resume</a>
+								<!-- <a a href="https://drive.google.com/file/d/1qpuvn4jizWts1s77_jDTc-D3HZvcMi_Z/view?usp=sharing"
+									target="_blank" class="btn btn-primary py-3 px-3" download>Resume</a> -->
+							</p>
+
 						</div>
 					</div>
 				</div>
@@ -196,10 +200,10 @@
 			<div class="projects" style="margin-top: 5%;">
 				<div>
 					<div class="image_div">
-						<img src="./images/Blumercury.png" alt="">
+						<img src="./images/Blumercury.png" alt="Blumercurry_Clone_Image">
 					</div>
 					<div class="para_div">
-						<h3>Blumercury</h3>
+						<h3>Blumercury_Clone</h3>
 						<p class="projectDes">A front-end clone of Blumercury website developed by me
 							span of 6 days.i have added features like signup/login validations,filter products, sorting
 							products,
@@ -222,10 +226,10 @@
 				</div>
 				<div>
 					<div class="image_div">
-						<img src="./images/Freshly.png" alt="">
+						<img src="./images/Freshly.png" alt="Freshly_Clone_Image">
 					</div>
 					<div class="para_div">
-						<h3>Freshly</h3>
+						<h3>Freshly_Clone</h3>
 						<p class="projectDes">A front-end clone of Freshly website developed by team of 5 members in
 							time span of 6 days. We have added features like filter , sorting products, Login&Signup
 							validations etc.</p>
@@ -247,11 +251,11 @@
 				<!-- //delivery app// -->
 				<div>
 					<div class="image_div">
-						<img src="./images/Delivery_apppng.png" alt="">
+						<img src="./images/Delivery_apppng.png" alt="Delivery_App_Image">
 					</div>
 					<div class="para_div">
-						<h3>Food_Delivery</h3>
-						<p class="projectDes">A front-end Food_Delivery website developed by me span of 5 days.. my
+						<h3>Food_Delivery_Clone</h3>
+						<p class="projectDes">A front-end Food_Delivery website developed by me span of 5 days..
 							i have added features like filter , sorting products,add to cart,remove from cart and
 							finally checkout
 						</p>
@@ -265,6 +269,31 @@
 						<a href="https://github.com/udhai-20/Delivery_App" target="_blank"><button
 								class="button-84">Code</button></a>
 						<a href="https://rainbow-frangollo-301238.netlify.app/" target="_blank"><button
+								class="button-84">Live</button></a>
+
+					</div>
+				</div>
+
+				<!-- //youtube -->
+				<div>
+					<div class="image_div">
+						<img src="./images/Youtube.png" alt="Youtbe_Clone_Image">
+					</div>
+					<div class="para_div">
+						<h3>Youtube_Clone</h3>
+						<p class="projectDes">A front-end simple Youtube clone developed by me span of 2 days..
+							i have added features like Searching videos and detailed view of the selected videos
+						</p>
+						<div>
+							<button style="font-weight: 600; font-size: 12px;">HTML</button>
+							<button style="font-weight: 600; font-size: 12px;">CSS</button>
+							<button style="font-weight: 600; font-size: 12px;">JAVASCRIPT</button>
+						</div>
+					</div>
+					<div>
+						<a href="https://github.com/udhai-20/Youtube_Clone/tree/main" target="_blank"><button
+								class="button-84">Code</button></a>
+						<a href="https://stalwart-crepe-6777f0.netlify.app/" target="_blank"><button
 								class="button-84">Live</button></a>
 
 					</div>
@@ -328,59 +357,60 @@
 		</div>
 	</section>
 	<!-- //github// -->
-	<div class="row justify-content-center pb-5">
-		<div class="col-md-12 heading-section text-center ftco-animate">
-			<h1 class="big big-2">GitHub</h1>
-			<h2 class="mb-4">My Github Calender</h2>
+	<div class="container">
+		<div class="row justify-content-center pb-5">
+			<div class="col-md-12 heading-section text-center ftco-animate">
+				<h1 class="big big-2">GitHub</h1>
+				<h2 class="mb-4">My Github Calender</h2>
+			</div>
+		</div>
+		<script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js">
+		</script>
+
+		<!-- Optionally, include the theme (if you don't want to struggle to write the CSS) -->
+		<link rel="stylesheet" href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css" />
+
+		<!-- Prepare a container for your calendar. -->
+		<div class="calendar" style="margin: auto; width: 60%;">
+			<!-- Loading stuff -->
+			Loading the data just for you.
+		</div>
+
+		<script>
+			GitHubCalendar(".calendar", "udhai-20");
+
+			// or enable responsive functionality:
+			GitHubCalendar(".calendar", "udhai-20", { responsive: true });
+
+			// Use a proxy
+			GitHubCalendar(".calendar", "udhai-20", {
+				proxy(username) {
+					return fetch(`https://your-proxy.com/github?user=${username}`)
+				}
+			}).then(r => r.text())
+		</script>
+
+		<br />
+		<br />
+		<div class="row justify-content-center pb-5">
+			<div class="col-md-12 heading-section text-center ftco-animate">
+				<h1 class="big big-2">GitHub</h1>
+				<h2 class="mb-4">My Statistics</h2>
+			</div>
+		</div>
+		<div class="state">
+			<a href="https://github.com/udhai-20/github-readme-stats"><img alt="7oSkaaa's Github Stats"
+					src="https://github-readme-stats.vercel.app/api?username=udhai-20&show_icons=true&count_private=true&theme=algolia"
+					height="192px" /></a>
+			<br />
+			<br />
+			&nbsp;
+			<img src="https://github-readme-stats.vercel.app/api/top-langs?username=udhai-20&langs_count=10&show_icons=true&locale=en&layout=compact&theme=algolia"
+				alt="udhai-20" height="192px" />
+			<br />
+
 		</div>
 	</div>
-	<script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js">
-	</script>
-
-	<!-- Optionally, include the theme (if you don't want to struggle to write the CSS) -->
-	<link rel="stylesheet" href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css" />
-
-	<!-- Prepare a container for your calendar. -->
-	<div class="calendar" style="margin: auto; width: 60%;">
-		<!-- Loading stuff -->
-		Loading the data just for you.
-	</div>
-
-	<script>
-		GitHubCalendar(".calendar", "udhai-20");
-
-		// or enable responsive functionality:
-		GitHubCalendar(".calendar", "udhai-20", { responsive: true });
-
-		// Use a proxy
-		GitHubCalendar(".calendar", "udhai-20", {
-			proxy(username) {
-				return fetch(`https://your-proxy.com/github?user=${username}`)
-			}
-		}).then(r => r.text())
-	</script>
-
-	<br />
-	<br />
-	<div class="row justify-content-center pb-5">
-		<div class="col-md-12 heading-section text-center ftco-animate">
-			<h1 class="big big-2">GitHub</h1>
-			<h2 class="mb-4">My Statistics</h2>
-		</div>
-	</div>
-	<div class="state">
-		<a href="https://github.com/udhai-20/github-readme-stats"><img alt="7oSkaaa's Github Stats"
-				src="https://github-readme-stats.vercel.app/api?username=udhai-20&show_icons=true&count_private=true&theme=algolia"
-				height="192px" /></a>
-		<br />
-		<br />
-		&nbsp;
-		<img src="https://github-readme-stats.vercel.app/api/top-langs?username=udhai-20&langs_count=10&show_icons=true&locale=en&layout=compact&theme=algolia"
-			alt="udhai-20" height="192px" />
-		<br />
-
-	</div>
-
 	<!-- <section class="ftco-section" id="blog-section">
 		<div class="container">
 			<div class="row justify-content-center mb-5 pb-5">
@@ -528,6 +558,11 @@
 	<script src="js/scrollax.min.js"></script>
 	<script src="js/main.js"></script>
 	<script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js">
+	</script>
+	<script>
+		document.getElementById("downloadResume").addEventListener("click", () => {
+			window.open("https://drive.google.com/file/d/1qpuvn4jizWts1s77_jDTc-D3HZvcMi_Z/view?usp=sharing")
+		})
 	</script>
 
 </body>

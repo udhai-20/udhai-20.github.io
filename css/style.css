@@ -13052,10 +13052,10 @@ textarea.form-control {
   }
 }
 
-.ftco-animate {
+/* .ftco-animate {
   opacity: 0;
   visibility: hidden;
-}
+} */
 
 .bg-primary {
   background: #ffbd39 !important;
@@ -13409,8 +13409,9 @@ textarea.form-control {
 }
 
 .blog-entry {
-  position: relative;
+  position: absolute;
 }
+
 
 @media (min-width: 768px) {
   .blog-entry {
