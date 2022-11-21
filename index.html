@@ -46,7 +46,7 @@
 					<a class="dropdown-item" style="color: rgb(255,255,255);" href="#projects-section">Projects</a>
 					<!-- <a class="dropdown-item" style="color: rgb(255,255,255);" href="#blog-section">My Blog</a> -->
 					<a class="dropdown-item" style="color: rgb(255,255,255);" href="#contact-section">Contact</a>
-					<a id="downloadResume" class="dropdown-item" style="color: rgb(255,255,255);"
+					<a id="downloadResume-1" class="dropdown-item" style="color: rgb(255,255,255);"
 						download="Udhaya Prakash Resume" href="./Resume/Udhaya-Prakash-Resume.pdf">Resume</a>
 
 				</div>
@@ -114,10 +114,10 @@
 					<div class="counter-wrap ftco-animate d-flex mt-md-3">
 						<div class="text">
 							<p class="mb-4">
-								<span class="number" data-number="4">4</span>
-								<span>Project complete</span>
+								<span class="number" data-number="5">5</span>
+								<span>Project completed</span>
 							</p>
-							<p><a id="downloadResume" href="./Resume/Udhaya-Prakash-Resume.pdf"
+							<p><a id="downloadResume-3" href="./Resume/Udhaya-Prakash-Resume.pdf"
 									class="btn btn-primary py-3 px-3" download="">Resume</a>
 								<!-- <a a href="https://drive.google.com/file/d/1qpuvn4jizWts1s77_jDTc-D3HZvcMi_Z/view?usp=sharing"
 									target="_blank" class="btn btn-primary py-3 px-3" download>Resume</a> -->
@@ -298,6 +298,35 @@
 
 					</div>
 				</div>
+
+				<!-- //inter theory -->
+
+				<div>
+					<div class="image_div">
+						<img src="./images/interTheory_clone.png" alt="Youtbe_Clone_Image">
+					</div>
+					<div class="para_div">
+						<h3>Intern Theory_Clone</h3>
+						<p class="projectDes">
+							A front-end clone of Inter Theory website was developed by a team of 3
+							people in 5 days. our project demonstrates a basic flow of pages where users can
+							signup/login, in and enroll in online courses to the cart section, where a user can search
+							and filter category-wise, for internships and jobs to start a good career.
+						</p>
+						<div>
+							<button style="font-weight: 600; font-size: 12px;">REACT</button>
+							<button style="font-weight: 600; font-size: 12px;">REDUX</button>
+							<button style="font-weight: 600; font-size: 12px;">CHAKRA UI</button>
+						</div>
+					</div>
+					<div>
+						<a href="https://github.com/udhai-20/Intern-Theory_Clone/tree/main" target="_blank"><button
+								class="button-84">Code</button></a>
+						<a href="https://interandjob.netlify.app/" target="_blank"><button
+								class="button-84">Live</button></a>
+
+					</div>
+				</div>
 				<!-- <div>
 					<div class="image_div">
 						<img src="./images/HomePage.png" alt="">
@@ -357,7 +386,7 @@
 		</div>
 	</section>
 	<!-- //github// -->
-	<div class="container">
+	<div class="containers">
 		<div class="row justify-content-center pb-5">
 			<div class="col-md-12 heading-section text-center ftco-animate">
 				<h1 class="big big-2">GitHub</h1>
@@ -371,7 +400,7 @@
 		<link rel="stylesheet" href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css" />
 
 		<!-- Prepare a container for your calendar. -->
-		<div class="calendar" style="margin: auto; width: 60%;">
+		<div class="calendar" style="margin: auto; width: 100%;">
 			<!-- Loading stuff -->
 			Loading the data just for you.
 		</div>
@@ -389,9 +418,10 @@
 				}
 			}).then(r => r.text())
 		</script>
-
-		<br />
-		<br />
+	</div>
+	<br />
+	<br />
+	<div class="containers_1">
 		<div class="row justify-content-center pb-5">
 			<div class="col-md-12 heading-section text-center ftco-animate">
 				<h1 class="big big-2">GitHub</h1>
@@ -401,16 +431,18 @@
 		<div class="state">
 			<a href="https://github.com/udhai-20/github-readme-stats"><img alt="7oSkaaa's Github Stats"
 					src="https://github-readme-stats.vercel.app/api?username=udhai-20&show_icons=true&count_private=true&theme=algolia"
-					height="192px" /></a>
+					height="200px" /></a>
 			<br />
 			<br />
 			&nbsp;
 			<img src="https://github-readme-stats.vercel.app/api/top-langs?username=udhai-20&langs_count=10&show_icons=true&locale=en&layout=compact&theme=algolia"
-				alt="udhai-20" height="192px" />
+				alt="udhai-20" height="200px" />
 			<br />
 
 		</div>
 	</div>
+
+
 	<!-- <section class="ftco-section" id="blog-section">
 		<div class="container">
 			<div class="row justify-content-center mb-5 pb-5">
@@ -544,6 +576,7 @@
 		</svg></div>
 
 
+
 	<script src="js/jquery.min.js"></script>
 	<script src="js/jquery-migrate-3.0.1.min.js"></script>
 	<script src="js/popper.min.js"></script>
@@ -560,10 +593,36 @@
 	<script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js">
 	</script>
 	<script>
-		document.getElementById("downloadResume").addEventListener("click", () => {
-			window.open("https://drive.google.com/file/d/1qpuvn4jizWts1s77_jDTc-D3HZvcMi_Z/view?usp=sharing")
-		})
+		let el = document.getElementById("downloadResume")
+		console.log('el :', el)
+		if (el) {
+			el.addEventListener("click", () => {
+				console.log("check")
+				window.open("https://drive.google.com/file/d/1qpuvn4jizWts1s77_jDTc-D3HZvcMi_Z/view?usp=sharing")
+			})
+		}
 	</script>
+	<script>
+		let e1l = document.getElementById("downloadResume-1")
+		console.log('el :', el)
+		if (e1l) {
+			e1l.addEventListener("click", () => {
+				console.log("check")
+				window.open("https://drive.google.com/file/d/1qpuvn4jizWts1s77_jDTc-D3HZvcMi_Z/view?usp=sharing")
+			})
+		}
+	</script>
+	<script>
+		let e12 = document.getElementById("downloadResume-3")
+		console.log('el :', el)
+		if (e12) {
+			e12.addEventListener("click", () => {
+				console.log("check")
+				window.open("https://drive.google.com/file/d/1qpuvn4jizWts1s77_jDTc-D3HZvcMi_Z/view?usp=sharing")
+			})
+		}
+	</script>
+
 
 </body>
 
