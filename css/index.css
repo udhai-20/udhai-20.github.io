@@ -215,15 +215,15 @@ a {
   display: none;
 }
 
-.calendar {
+/* .calendar {
   width: 60%;
   text-align: center;
   color: #fff;
 
-}
+} */
 
 .containers {
-  width: 60%;
+
   margin: auto;
 }
 
@@ -304,12 +304,7 @@ a {
 }
 
 @media only screen and (min-width: 426px) and (max-width: 769px) {
-  .blogs {
-    border: 1px solid transparent;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 20px;
-  }
+
 
   .state {
     display: flex;
@@ -318,13 +313,7 @@ a {
     align-items: center;
   }
 
-  /* .calendar {
-    width: 80%;
-    font-size: 10px;
-    text-align: center;
-    color: #fff;
 
-  } */
 
   .projects {
     border: 1px solid transparent;

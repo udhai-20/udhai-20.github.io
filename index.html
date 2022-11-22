@@ -6,20 +6,15 @@
 	<link rel="shortcut icon" href="./images/coding.png" type="image/x-icon">
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
 	<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
-
 	<link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
 	<link rel="stylesheet" href="css/animate.css">
-
 	<link rel="stylesheet" href="css/owl.carousel.min.css">
 	<link rel="stylesheet" href="css/owl.theme.default.min.css">
 	<link rel="stylesheet" href="css/magnific-popup.css">
-
 	<link rel="stylesheet" href="css/aos.css">
-
 	<link rel="stylesheet" href="css/ionicons.min.css">
-
+	<link rel="stylesheet" href="css/Calender.css" />
 	<link rel="stylesheet" href="css/flaticon.css">
 	<link rel="stylesheet" href="css/icomoon.css">
 	<link rel="stylesheet" href="css/style.css">
@@ -393,19 +388,19 @@
 				<h2 class="mb-4">My Github Calender</h2>
 			</div>
 		</div>
-		<script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js">
-		</script>
+		<!-- <script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js">
+		</script> -->
 
 		<!-- Optionally, include the theme (if you don't want to struggle to write the CSS) -->
-		<link rel="stylesheet" href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css" />
+		<!-- <link rel="stylesheet" href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css" /> -->
 
 		<!-- Prepare a container for your calendar. -->
-		<div class="calendar" style="margin: auto; width: 100%;">
+		<div class="calendar">
 			<!-- Loading stuff -->
 			Loading the data just for you.
 		</div>
 
-		<script>
+		<!-- <script>
 			GitHubCalendar(".calendar", "udhai-20");
 
 			// or enable responsive functionality:
@@ -417,7 +412,7 @@
 					return fetch(`https://your-proxy.com/github?user=${username}`)
 				}
 			}).then(r => r.text())
-		</script>
+		</script> -->
 	</div>
 	<br />
 	<br />
@@ -430,12 +425,12 @@
 		</div>
 		<div class="state">
 			<a href="https://github.com/udhai-20/github-readme-stats"><img alt="7oSkaaa's Github Stats"
-					src="https://github-readme-stats.vercel.app/api?username=udhai-20&show_icons=true&count_private=true&theme=algolia"
-					height="200px" /></a>
+					src="https://github-readme-stats.vercel.app/api?username=udhai-20&amp;theme=highcontrast&amp;show_icons=true&amp;count_private=true"
+					height=" 200px" /></a>
 			<br />
 			<br />
 			&nbsp;
-			<img src="https://github-readme-stats.vercel.app/api/top-langs?username=udhai-20&langs_count=10&show_icons=true&locale=en&layout=compact&theme=algolia"
+			<img src="https://github-readme-stats.vercel.app/api/top-langs?username=udhai-20&amp;show_icons=true&amp;theme=dark&amp;title_color=fb8d0e&amp;text_color=fcfcfc&amp;locale=en&amp;layout=compact"
 				alt="udhai-20" height="200px" />
 			<br />
 
@@ -621,6 +616,11 @@
 				window.open("https://drive.google.com/file/d/1qpuvn4jizWts1s77_jDTc-D3HZvcMi_Z/view?usp=sharing")
 			})
 		}
+	</script>
+	<script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js">
+	</script>
+	<script>
+		GitHubCalendar(".calendar", "udhai-20", { responsive: true });
 	</script>
 
 
